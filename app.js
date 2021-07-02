@@ -3,7 +3,7 @@ const app = express();
 const speakeasy = require('speakeasy');
 const qrcode = require('qrcode');
 
-app.use(bodyParser.urlencoded( { extended: true } ));
+app.use(express.urlencoded( { extended: true } ));
 
 var router = express.Router();
 
